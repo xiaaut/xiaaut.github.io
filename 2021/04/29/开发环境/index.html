@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="Xia">
+    
+    <title>
+        
+            开发环境 |
+        
+        Xia&#39;s Blog
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/xiaaut/image-hosting@master/20210425/微信图片_20210429002828.1t6piak21j4w.jpg">
+    
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {};
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"en","path":"search.json"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#0066CC","avatar":"https://cdn.jsdelivr.net/gh/xiaaut/image-hosting@master/20210425/微信图片_20210429002828.1t6piak21j4w.jpg","favicon":"https://cdn.jsdelivr.net/gh/xiaaut/image-hosting@master/20210425/微信图片_20210429002828.1t6piak21j4w.jpg","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":false,"scale":false},"first_screen":{"enable":true,"background_img":"/images/bg.svg","description":"学而不思则罔，思而不学则殆。"},"scroll":{"progress_bar":{"enable":false},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":false},"code_copy":{"enable":true,"style":"default"},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"3.4.3"};
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+  </script>
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <span class="pjax-progress-icon">
+            <i class="fas fa-circle-notch fa-spin"></i>
+        </span>
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            <header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+            <a class="logo-title" href="/">
+                Xia&#39;s Blog
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                HOME
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                ARCHIVES
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                CATEGORIES
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                TAGS
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">HOME</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">ARCHIVES</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">CATEGORIES</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags">TAGS</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            <span class="title-hover-animation">开发环境</span>
+        </div>
+
+        
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="https://cdn.jsdelivr.net/gh/xiaaut/image-hosting@master/20210425/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210429002828.1t6piak21j4w.jpg">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">Xia</span>
+                        
+                            <span class="author-label">Lv3</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fas fa-edit"></i>&nbsp;2021-04-29 01:40:19
+    </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/">面试题</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <h3 id="1-git"><a href="#1-git" class="headerlink" title="1. git"></a>1. git</h3><ul>
+<li>最常用的代码版本管理用具</li>
+<li>大型项目需要多人协作开发，必须熟用 git</li>
+<li>Mac OS 自带 git 命令，windows 可以去官网下载安装</li>
+<li>git 服务端常见的有 GitHub coding.net 等</li>
+<li>大公司会搭建自己的内网 git 服务</li>
+</ul>
+<span id="more"></span>
+
+<h4 id="1-1-常用的-git-命令"><a href="#1-1-常用的-git-命令" class="headerlink" title="1.1 常用的 git 命令"></a>1.1 常用的 git 命令</h4><ul>
+<li>git add .        提交所有的文件</li>
+<li>git checkout 文件名        撤销某个文件内容的修改</li>
+<li>git commit -m “xxx”        添加一条提交记录</li>
+<li>git push origin master        提交 master 分支代码</li>
+<li>git pull origin master        拉取 master 分支代码</li>
+<li>git branch        查看当前所在的分支</li>
+<li>git checkout -b xxx / git checkout xxx        切换到其他分支</li>
+<li>git merge xxx        把 xxx 分支的代码合并到 master 分支</li>
+<li>git stash        把修改暂存起来</li>
+<li>git stash pop        把暂存的修改拉回来</li>
+</ul>
+<h3 id="2-调试工具"><a href="#2-调试工具" class="headerlink" title="2.调试工具"></a>2.调试工具</h3><h4 id="2-1-Elements"><a href="#2-1-Elements" class="headerlink" title="2.1 Elements"></a>2.1 Elements</h4><p>看 DOM 结构，调试 CSS 样式</p>
+<h4 id="2-2-Console"><a href="#2-2-Console" class="headerlink" title="2.2 Console"></a>2.2 Console</h4><p>调试 JS 代码</p>
+<h4 id="2-3-Application"><a href="#2-3-Application" class="headerlink" title="2.3 Application"></a>2.3 Application</h4><p>查看 Storage 里的存储信息</p>
+<h4 id="2-4-Network"><a href="#2-4-Network" class="headerlink" title="2.4 Network"></a>2.4 Network</h4><p>查看网络资源的加载状态</p>
+<h4 id="2-5-Sources"><a href="#2-5-Sources" class="headerlink" title="2.5 Sources"></a>2.5 Sources</h4><p>调试源码</p>
+<h3 id="3-抓包"><a href="#3-抓包" class="headerlink" title="3. 抓包"></a>3. 抓包</h3><ul>
+<li>移动端 h5 页面，查看网络请求，需要用工具抓包</li>
+<li>windows 一般用 fiddler</li>
+<li>macOS 一般用 charles</li>
+</ul>
+<hr>
+<ul>
+<li>手机和电脑连同一个局域网</li>
+<li>将手机代理到电脑上</li>
+<li>手机浏览网页，即可抓包</li>
+</ul>
+<hr>
+<ul>
+<li>查看网络请求</li>
+<li>网址代理</li>
+<li>https</li>
+</ul>
+<h3 id="4-webpack-babel"><a href="#4-webpack-babel" class="headerlink" title="4. webpack babel"></a>4. webpack babel</h3><ul>
+<li>ES6 模块化，浏览器暂不支持</li>
+<li>ES6 语法，浏览器并不完全支持</li>
+<li>压缩代码，整合代码，以让网页加载更快</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 新建一个名为 webpack-demo 的文件夹</span></span><br><span class="line"><span class="comment">// 鼠标右键打开命令行工具</span></span><br><span class="line"><span class="comment">// 先查看 node 版本</span></span><br><span class="line">node -v</span><br><span class="line"></span><br><span class="line"><span class="comment">// 初始化 npm 环境</span></span><br><span class="line">npm init -y</span><br><span class="line"></span><br><span class="line"><span class="comment">// 安装 webpack</span></span><br><span class="line">npm install webpack webpack-cli -D</span><br><span class="line"></span><br><span class="line"><span class="comment">// 在文件夹根目录下创建 webpack.config.js 文件，并添加如下代码</span></span><br><span class="line"><span class="keyword">const</span> path = <span class="built_in">require</span>(<span class="string">&#x27;path&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">    mode: <span class="string">&#x27;development&#x27;</span>, <span class="comment">//production</span></span><br><span class="line">    entry: path.join(__dirname, <span class="string">&#x27;src&#x27;</span>, <span class="string">&#x27;index.js&#x27;</span>),</span><br><span class="line">    output: &#123;</span><br><span class="line">        filename: <span class="string">&#x27;bundle.js&#x27;</span>,</span><br><span class="line">        path: path.join(__dirname, <span class="string">&#x27;dist&#x27;</span>)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在 package.json 文件夹中新添加如下图红框中代码</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.jsdelivr.net/gh/xiaaut/image-hosting@master/20210425/Snipaste_2021-05-14_16-47-38.6pvz4bxfxpo0.png"
+                     
+                ></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 之后在命令行工具中输入代码</span></span><br><span class="line">npm run build</span><br></pre></td></tr></table></figure>
+
+<p>如图，打包成功</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.jsdelivr.net/gh/xiaaut/image-hosting@master/20210425/Snipaste_2021-05-14_16-50-32.2kurqhmexc20.png"
+                     
+                ></p>
+<p>再安装如下插件</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">// 解析 HTML 的插件</span><br><span class="line">npm install html-webpack-plugin -D</span><br><span class="line"></span><br><span class="line">// 能启动服务的插件</span><br><span class="line">npm install webpack-dev-server -D</span><br></pre></td></tr></table></figure>
+
+<p>修改 webpack.config.js 文件</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> path = <span class="built_in">require</span>(<span class="string">&#x27;path&#x27;</span>)</span><br><span class="line"><span class="keyword">const</span> HtmlWebpackPlugin = <span class="built_in">require</span>(<span class="string">&#x27;html-webpack-plugin&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">    mode: <span class="string">&#x27;development&#x27;</span>, <span class="comment">//production</span></span><br><span class="line">    entry: path.join(__dirname, <span class="string">&#x27;src&#x27;</span>, <span class="string">&#x27;index.js&#x27;</span>),</span><br><span class="line">    output: &#123;</span><br><span class="line">        filename: <span class="string">&#x27;bundle.js&#x27;</span>,</span><br><span class="line">        path: path.join(__dirname, <span class="string">&#x27;dist&#x27;</span>)</span><br><span class="line">    &#125;,</span><br><span class="line">    plugins: [</span><br><span class="line">        <span class="keyword">new</span> HtmlWebpackPlugin(&#123;</span><br><span class="line">            template: path.join(__dirname, <span class="string">&#x27;src&#x27;</span>, <span class="string">&#x27;index.html&#x27;</span>),</span><br><span class="line">            filename: <span class="string">&#x27;index.html&#x27;</span></span><br><span class="line">        &#125;)</span><br><span class="line">    ],</span><br><span class="line">    devServer: &#123;</span><br><span class="line">        port: <span class="number">3000</span>,</span><br><span class="line">        contentBase: path.join(__dirname, <span class="string">&#x27;dist&#x27;</span>)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在 package.json 文件夹中新添加如下图红框中代码</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.jsdelivr.net/gh/xiaaut/image-hosting@master/20210425/Snipaste_2021-05-14_17-16-18.5woa4vbhfms0.png"
+                     
+                ></p>
+<hr>
+<p><strong>安装 babel</strong></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 命令行工具下输入</span></span><br><span class="line">npm install @babel/core @babel/preset-env</span><br></pre></td></tr></table></figure>
+
+<p>新建 .babelrc 文件，并添加代码</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.jsdelivr.net/gh/xiaaut/image-hosting@master/20210425/Snipaste_2021-05-14_17-26-42.2gx2wmvv0cg0.png"
+                     
+                ></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> path = <span class="built_in">require</span>(<span class="string">&#x27;path&#x27;</span>)</span><br><span class="line"><span class="keyword">const</span> HtmlWebpackPlugin = <span class="built_in">require</span>(<span class="string">&#x27;html-webpack-plugin&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">    mode: <span class="string">&#x27;development&#x27;</span>, <span class="comment">//production</span></span><br><span class="line">    entry: path.join(__dirname, <span class="string">&#x27;src&#x27;</span>, <span class="string">&#x27;index.js&#x27;</span>),</span><br><span class="line">    output: &#123;</span><br><span class="line">        filename: <span class="string">&#x27;bundle.js&#x27;</span>,</span><br><span class="line">        path: path.join(__dirname, <span class="string">&#x27;dist&#x27;</span>)</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="built_in">module</span>:&#123;</span><br><span class="line">        rules: [</span><br><span class="line">            &#123;</span><br><span class="line">                test: <span class="regexp">/\.js/</span>,</span><br><span class="line">                loader: [<span class="string">&#x27;babel-loader&#x27;</span>],</span><br><span class="line">                include: path.join(__dirname, <span class="string">&#x27;src&#x27;</span>),</span><br><span class="line">                exclude: <span class="regexp">/node_modules/</span></span><br><span class="line">            &#125;</span><br><span class="line">        ]</span><br><span class="line">    &#125;,</span><br><span class="line">    plugins: [</span><br><span class="line">        <span class="keyword">new</span> HtmlWebpackPlugin(&#123;</span><br><span class="line">            template: path.join(__dirname, <span class="string">&#x27;src&#x27;</span>, <span class="string">&#x27;index.html&#x27;</span>),</span><br><span class="line">            filename: <span class="string">&#x27;index.html&#x27;</span></span><br><span class="line">        &#125;)</span><br><span class="line">    ],</span><br><span class="line">    devServer: &#123;</span><br><span class="line">        port: <span class="number">3000</span>,</span><br><span class="line">        contentBase: path.join(__dirname, <span class="string">&#x27;dist&#x27;</span>)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-Linux-常用命令"><a href="#5-Linux-常用命令" class="headerlink" title="5. Linux 常用命令"></a>5. Linux 常用命令</h3><ul>
+<li>公司的线上机器一般都是 Linux （参考阿里云）</li>
+<li>测试机也需要保持一致，用 Linux</li>
+<li>测试机或者线上机出了问题，本地又不能复现，需要去排查</li>
+</ul>
+<hr>
+<ul>
+<li>ls        查看文件</li>
+<li>ls-a        查看所有文件</li>
+<li>ll        查看文件列表</li>
+<li>mkdir xxx        创建文件夹</li>
+<li>ll xxx        查看文件夹</li>
+<li>rm -rf xxx        删除文件夹及其所有内容</li>
+<li>cd xxx        切换到 xxx 目录</li>
+<li>mv xxx.html xxx1.html        修改文件名</li>
+<li>mv xxx.html ../xxx.html        移动文件到上级目录</li>
+<li>cp xxx.html xxx.html        拷贝文件</li>
+<li>rm xxx.html        删除文件</li>
+<li>touch xxx.html        新建文件</li>
+<li>vi xxx.html        新建并打开文件<ul>
+<li>按 i 键进入编辑</li>
+<li>按 ESC 键退出编辑区域</li>
+<li>按 shift + ：键，并输入 w，保存输入的内容</li>
+<li>按 shift + ：键，并输入 q，退出vim编辑</li>
+<li>按 shift + ：键，并输入 q!，不保存内容强制退出vim编辑</li>
+</ul>
+</li>
+<li>vim xxx.html        查看文件内容</li>
+<li>cat xxx.html        打印出文件的所有内容，在控制台查看</li>
+<li>head xxx.html        打印出前几行，在控制台查看</li>
+<li>tail xxx.html        打印出末尾几行，在控制台查看</li>
+<li>grep “aaa” xxx.html        在 xxx 文件中查找 aaa 关键字的内容</li>
+<li></li>
+</ul>
+
+        </div>
+
+        
+            <div class="post-copyright-info">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li>Post title：开发环境</li>
+        <li>Post author：Xia</li>
+        <li>Create time：2021-04-29 01:40:19</li>
+        <li>
+            Post link：https://xiaaut.github.io/2021/04/29/开发环境/
+        </li>
+        <li>
+            Copyright Notice：All articles in this blog are licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> unless stating additionally.
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+            <div class="article-nav">
+                
+                    <div class="article-prev">
+                        <a class="prev"
+                           rel="prev"
+                           href="/2021/04/29/JS-Web-API/"
+                        >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">JS-Web-API</span>
+                                <span class="post-nav-item">Prev posts</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                           rel="next"
+                           href="/2021/04/29/%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83/"
+                        >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">运行环境</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+              <span>2020</span>&nbsp;-&nbsp;
+            
+            2022&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">Xia</a>
+        </div>
+        
+            <script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    <span id="busuanzi_container_site_uv">
+                        Visitor Count&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv">
+                        Totalview&nbsp;<span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="theme-info info-item">
+            Powered by <a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;|&nbsp;Theme&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.4.3</a>
+        </div>
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item page-aside-toggle">
+                <i class="fas fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-expand-width flex-center">
+            <i class="fas fa-arrows-alt-h"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    
+        <aside class="page-aside">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-git"><span class="nav-text">1. git</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-1-%E5%B8%B8%E7%94%A8%E7%9A%84-git-%E5%91%BD%E4%BB%A4"><span class="nav-text">1.1 常用的 git 命令</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7"><span class="nav-text">2.调试工具</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-Elements"><span class="nav-text">2.1 Elements</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-Console"><span class="nav-text">2.2 Console</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-3-Application"><span class="nav-text">2.3 Application</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-4-Network"><span class="nav-text">2.4 Network</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-5-Sources"><span class="nav-text">2.5 Sources</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E6%8A%93%E5%8C%85"><span class="nav-text">3. 抓包</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-webpack-babel"><span class="nav-text">4. webpack babel</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-Linux-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="nav-text">5. Linux 常用命令</span></a></li></ol>
+    </div>
+</div>
+        </aside>
+    
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="Search..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+
+    
+<script src="/js/code-copy.js"></script>
+
+
+
+
+    
+<script src="/js/lazyload.js"></script>
+
+
+
+<div class="post-scripts pjax">
+    
+        
+<script src="/js/left-side-toggle.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+<script src="/js/toc.js"></script>
+
+    
+</div>
+
+
+    
+<script src="/js/libs/pjax.min.js"></script>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+            // scrollTo: true,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            KEEP.utils.pjaxProgressBarStart();
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            KEEP.utils.pjaxProgressBarEnd();
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            KEEP.refresh();
+        });
+    });
+</script>
+
+
+
+</body>
+</html>
